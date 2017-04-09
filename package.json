@@ -1,0 +1,19 @@
+{
+  "name": "whatsappSimulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Walter Cheng",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.15.1",
+    "mongodb": "^2.2.24",
+    "pug": "^2.0.0-beta11",
+    "random-id": "0.0.2",
+    "socket.io": "^1.7.3"
+  }
+}

@@ -1,0 +1,21 @@
+html
+	head
+		title LOGIN
+		link(type='text/css' href='style.css' rel='stylesheet')
+	body
+		h1 Login page
+		if warning
+			p=warning
+		form(action="/login", method="POST")
+			label(for='username') Name:
+			input#username(name='username')
+			br
+			label(for='password') Password:
+			input#password(name='password')
+			br
+			input(type='submit', value="Log in")#send
+
+			p
+			| new users?
+			a(href="register") click here.
+			

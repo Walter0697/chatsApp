@@ -1,0 +1,70 @@
+body{
+	background-color:#FFF;  
+	color:black;
+}
+
+h1{
+	color:#799;
+	text-shadow: 1px 2px #000;
+}
+
+button{
+	margin-top:5px;
+	border-radius:5px;
+	width:60px;
+	height:30px;
+	padding:4px;
+}
+
+form{ 
+	border:solid 2px silver;
+	border-radius: 10px;
+	padding: 5px;
+	color:white;
+	background-color:#555;
+	box-shadow:3px 3px #000;
+}
+
+#contents{
+	width: 78%;
+	float: right;
+}
+
+#chatSection{
+	border : solid 3px #003333;
+	width: 100%;
+	height: 100%;
+	box-shadow: -1px 0 black, 0 1px black, 5px 5px black, 0 -1px black;
+	background-color: white;
+	color : black;
+}
+
+#chatDiv{
+	background-color: white;
+	width : 100%;
+	height: 80%;
+	overflow-y : auto;
+}
+
+#inputSection{
+	background-color: white;
+	color: black;
+	font-size : 30px;
+	border: solid 3px #003333;
+	margin-top : 15px;
+	height: 9%;
+	width: 100%;
+	box-shadow: 1px 0 black, 0 1px black, 5px 5px black, 0 -1px black;
+}
+
+#userDiv{
+	background-color: white;
+	color: black;
+	border: solid 3px #003333;
+
+	width: 20%;
+	height: 90%;
+	float: left;
+	overflow: auto;
+	box-shadow: -1px 0 black, 0 1px black, 5px 5px black, 0 -1px black;
+}

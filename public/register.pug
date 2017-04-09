@@ -1,0 +1,25 @@
+html
+	head
+		title REGISTER
+		link(type='text/css' href='style.css' rel='stylesheet')
+	body
+		h1 Register
+		if warning
+			p=warning
+		form(action="/register", method="POST")
+			label(for='username') Name:
+			input#username(name='username')
+			br
+			label(for='password') Password:
+			input#password(name='password')
+			br
+			br
+			label(for='nickname') Nickname:
+			input#nickname(name='nickname')
+			br
+			input(type='submit', value="Submit")#register
+
+			p
+			| already registered?
+			a(href="/login") click here.
+			
